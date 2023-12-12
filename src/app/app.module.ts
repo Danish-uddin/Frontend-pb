@@ -25,7 +25,6 @@ import { BudgetComponent } from './budget/budget.component';
 import { AddExpenseComponent } from './add-expense/add-expense.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { PieBudgetComponent } from './pie-budget/pie-budget.component';
-import { LineBudgetComponent } from './line-budget/line-budget.component';
 import { DonutExpenseComponent } from './donut-expense/donut-expense.component';
 
 @NgModule({
@@ -46,7 +45,6 @@ import { DonutExpenseComponent } from './donut-expense/donut-expense.component';
     AddExpenseComponent,
     BarChartComponent,
     PieBudgetComponent,
-    LineBudgetComponent,
     DonutExpenseComponent
   ],
   imports: [
