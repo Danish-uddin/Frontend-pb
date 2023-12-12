@@ -1,0 +1,143 @@
+/* .expense-container {
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 85vh;
+}
+
+.component-container {
+  width: 50%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 20px;
+  border: 1px solid #dddddd;
+  background-color: #f9f9f9;
+  margin: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.half-width {
+  display: flex;
+}
+
+.add-Expense-container {
+  width: 50%;
+  padding: 50px;
+}
+
+.add-expense button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */
+
+/* Expense container styling */
+.expense-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 70vh;
+}
+
+/* Component container styling */
+.component-container {
+  width: 45%;
+  padding: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  border: 2px solid #4CAF50;
+  background-color: #f0f8ff;
+}
+
+/* Content container styling */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  height: 100%;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 2px solid #4CAF50;
+  text-align: left;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+/* Centered class styling */
+.centered {
+  justify-content: space-evenly;
+}
+
+/* Half-width class styling */
+.half-width {
+  display: flex;
+  width: 50%;
+}
+
+/* Add Expense container styling */
+.add-expense-container {
+  width: 55%;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+/* Add Expense button styling */
+.add-expense button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-expense button:hover {
+  background-color: #e65449;
+}

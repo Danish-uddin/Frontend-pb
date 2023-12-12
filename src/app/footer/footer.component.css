@@ -1,0 +1,49 @@
+/* footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+} */
+
+/* General styling for the footer */
+footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  border-top: 5px solid #ffcc00; /* Yellow border at the top */
+}
+
+/* Styling for the footer content */
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  color: #ccc; /* Light gray text color */
+}
+
+/* Additional styling for links in the footer */
+.footer-content a {
+  color: #ffcc00; /* Yellow link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #fff; /* White link color on hover */
+}
